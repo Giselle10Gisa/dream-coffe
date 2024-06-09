@@ -1,3 +1,15 @@
-<div class="absolute top-40">
-  <h1>Hello world</h1>
-</div>
+<section class="flex max-xs:overflow-hidden overflow-hidden">
+  <div class="overflow-hidden">
+    <img src="./assets/images/login/nuvem.png" alt="Nuvem" class="absolute lg:w-[38%] -top-[250px] -left-[200px] -rotate-[20deg] max-xs:rotate-[25deg] max-xs:max-w-fit max-xs:left-5 max-xs:-top-36">
+    <img src="./assets/images/logo.jpg" alt="Logo" class="absolute rounded-full w-[200px] left-40 top-20 max-xs:w-[200px] max-xs:left-[90px] max-xs:top-[80px]">
+    <div>
+      <img src="./assets/images/general/downloads.png" alt="Downloads" class="absolute w-[200px] bottom-8 left-36 max-xs:bottom-5 z-[10] max-xs:w-[40%] max-xs:left-[105px]">
+      <img src="./assets/images/login/caneca.png" alt="Caneca" class="absolute lg:w-[40%] max-xs:max-w-fit bottom-0">
+      <a class="absolute bottom-4 left-[180px] max-xs:bottom-1 text-[12px] underline text-[#4341C5] max-xs:left-[120px]">Termos de segurança</a>
+    </div>
+  </div>
+  <div class="flex flex-col lg:absolute lg:right-[250px] lg:my-[150px] lg:bg-neutral lg:px-10 lg:py-20 lg:rounded-md lg:border-[#63473C] lg:border-[10px] max-xs:items-center max-xs:justify-center max-xs:mx-auto max-xs:mt-[350px]">
+    <input-form-field [labelName]="'Email'" [inputName]="'Digite seu email'" [iconForm]="'email_outlined'"></input-form-field>
+    <input-form-field [labelName]="'Senha'" [inputName]="'Digite sua senha'" [iconForm]="'lock'"></input-form-field>
+  </div>
+</section>
